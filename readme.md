@@ -55,4 +55,16 @@ Depuis le dossier du projet tests:
 dotnet add reference
  ../Isen.Dotnet.Library/Isen.DotNet.Library.csproj'
 
- Depuis le dossier du projet de tests
+ git add .
+ git commit -m "Test project"
+ ## Push du projet sur un repo remote 
+ git remote add origin "URL"
+ Push en indiquand que master correspond à origin/master
+
+
+ git push -u origin master
+
+ ## Ajout d'un tag Git
+ git tag v0.1
+Pushe le tag dans le remote repo
+git push origin v0.1
