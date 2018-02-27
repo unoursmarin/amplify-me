@@ -1,0 +1,12 @@
+﻿using System;
+
+namespace Isen.DotNet.ConsoleApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("JE SUIS BRILLANT");
+        }
+    }
+}
