@@ -38,5 +38,21 @@ Ajouter le projet console:
 dotnet sln add
 Isen.DotNet.ConsoleApp/Isen.DotNet.consoleApp.csproj
 #Commit git
-git add
+git add .
 git commit -m 
+#TDD
+Test driven Development
+Créer le dossier de tests: 
+mkdir Isen.DotNet.tests
+Connaitre une liste des news: dotnet new -h
+
+dotnet new xunit 
+
+Ajouter ce projet à la solution (depuis la racine)
+dotnet sln add reference  Isen.Dotnet.Tests 
+
+Depuis le dossier du projet tests:
+dotnet add reference
+ ../Isen.Dotnet.Library/Isen.DotNet.Library.csproj'
+
+ Depuis le dossier du projet de tests
